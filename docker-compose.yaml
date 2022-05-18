@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  tnyavnto-tunes:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    container_name: tnyavnto-tunes
+    restart: always

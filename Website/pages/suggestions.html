@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html manifest="manifest.json" lang="en">
+
+<head>
+    <title>Suggestions</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="TnyavnTo (Aidan McGraw)" />
+    <meta name="description" content="Suggestions page for TnyavnTo Tunes Discord music bot.">
+    <meta name="application-name" content="TnyavnTo Tunes - Discord Music Bot" />
+    <meta property="og:title" content="TnyavnTo Tunes" />
+    <meta property="og:description" content="Suggestions page for TnyavnTo Tunes Discord music bot." />
+    <meta property="og:image" content="../images/bot-logo.png" />
+    <link rel="../images/bot-logo.png" />
+    <link rel="icon" type="image/png" href="../images/bot-logo.png">
+    <link rel="icon" sizes="192x192" href="../images/bot-logo.png" />
+    <meta name="apple-mobile-web-app-title" content="Suggestions" />
+    <link rel="shortcut icon" href="../images/bot-logo.png" type="image/x-icon" />
+    <link href="../images/bot-logo.png" rel="icon shortcut" sizes="3232" />
+    <link rel="apple-touch-icon" href="../images/bot-logo.png" type="image/x-icon" />
+    <link rel="mask-icon" href="../images/bot-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="suggestions.css">
+</head>
+
+<body>
+    <div class="page-header">
+        <img id="header-bot-logo" src="../images/bot-logo.png">
+        <h1 id="header-bot-name">TnyavnTo Tunes</h1>
+        <a href="../index.html" id="header-bot-inv">Back Home</a>
+    </div>
+    <div class="suggestions">
+        <h3 id="suggestionsHead">Got any suggestions?</h3>
+
+        <form name="Suggestions Form" method="POST" data-netlify="true">
+            <h3 class="form1">Here you can write a suggestion for TnyavnTo Tunes, rather it be a command, ui change, site update, etc.</h3>
+            <h2 id="step1">Enter your Discord:</h2>
+            <input type="text" id="step1_5" name="Discord" required>
+            <h2 id="step2">General suggestion details:</h2>
+            <h5 id="step2">80 Character minimum.</h5>
+            <textarea name="Suggestion Details" minlength="80" type="text" id="step2_5" required></textarea>
+            <input type="submit" required class="buttons">
+            <input type="file" name="Optional File" accept=".html, .js, .css, .scss, .py, .cs, .txt" class="buttons2">
+        </form>
+
+    </div>
+    <div class="bot-server">
+        <h1 id="bot-server-header">Support Server</h1>
+        <div class="server-invite">
+            <img src="../images/server-logo.png" id="server-invite-logo">
+            <h1 id="bot-server-name">Bot Support Server</h1>
+            <h1 id="bot-server-desc">Join Now For New Updates And Bot Support!</h1>
+            <a href="https://discord.gg/8snysWc6" id="bot-server-invite" target="_blank">Join</a>
+        </div>
+    </div>
+    <footer class="footer">
+        Copyright Ⓒ by TnyavnTo @ <a href="https://sna-organics.com" target="_blamk" id="sna_redirect">S&A Organics Co.</a>
+    </footer>
+    <br>
+    <br>
+    <br>
+</body>

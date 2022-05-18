@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik&display=swap');
+:root {
+    --grey1: #23272a;
+    --grey: #2c2f33;
+    --burple: #5865F2;
+    ;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #222222;
+}
+
+#wave1 {
+    margin-top: -50px;
+}
+
+
+/* 404 page */
+
+#fof-title {
+    color: rgb(200, 0, 0);
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+#fof-info {
+    color: var(--burple);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25vh;
+}
+
+.fof-button-div {
+    text-align: center;
+}
+
+#fof-button {
+    text-decoration: none;
+    color: var(--burple);
+    box-shadow: 0px 5px 1px 5px var(--grey1);
+    padding: 15px 30px 10px 30px;
+    font-size: 30px;
+    border-radius: 15px;
+    transition: .75s;
+}
+
+#fof-button:hover {
+    box-shadow: 5px 5px 10px 2.5px var(--burple);
+    transition: 1s;
+}
+
+
+/* 404 page */
+
+
+/* page header */
+
+.page-header {
+    text-align: center;
+    background-image: url(images/wave1.png);
+    background-size: auto;
+    width: 100%;
+    height: 680px;
+    transition: all 1.5s ease;
+    margin-bottom: -320px;
+}
+
+.page-header2 {
+    text-align: center;
+    transition: all 2s ease;
+    margin-bottom: 50px;
+}
+
+.page-header2 a {
+    margin: 14px;
+}
+
+#status1 {
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 2s ease;
+    margin-bottom: 15vh;
+}
+
+#stat1 {
+    color: var(--burple);
+}
+
+#stat2 {
+    color: red;
+}
+
+.page-header3 {
+    align-content: center;
+    text-align: center;
+    transition: all 2s ease;
+    margin-bottom: 100px;
+}
+
+#header-bot-logo {
+    width: 80x;
+    height: 80px;
+    background-color: var(--grey);
+    margin-bottom: -40px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 25px;
+}
+
+#header-bot-name {
+    color: #ff0000;
+    padding-top: 30px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#header-bot-name2 {
+    color: var(--burple);
+    padding-top: 30px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+
+/* Invite button */
+
+#header-bot-inv {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 25px;
+    border: 4px solid var(--burple);
+    padding: 7.5px 40px 7.5px 40px;
+    border-radius: 15px;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, transparent 50%, var(--burple) 50%);
+    transition: background-position 1.5s cubic-bezier(0.45, 2, -0.22, 1.5) .1s, color 1s ease 2s, background-color 5s ease;
+    transition: 1s ease;
+}
+
+#header-bot-inv:hover {
+    color: var(--grey1);
+    background-position: -100% 100%;
+    transition: 0.7s ease;
+}
+
+
+/* Read more button */
+
+#header-bot-inv2 {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 25px;
+    border: 4px solid var(--burple);
+    padding: 7.5px 40px 7.5px 40px;
+    border-radius: 15px;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, transparent 50%, var(--burple) 50%);
+    transition: background-position 1.5s cubic-bezier(0.45, 2, -0.22, 1.5) .1s, color 1s ease 2s, background-color 5s ease;
+    transition: 1s ease;
+}
+
+#header-bot-inv2:hover {
+    color: var(--grey1);
+    background-position: 100% -100%;
+    transition: 0.7s ease;
+}
+
+
+/* page header */
+
+
+/* Commands */
+
+.commands {
+    text-align: center;
+    margin-top: -200px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--grey);
+    box-shadow: 0px 0px 20px 10px var(--grey1);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+#comm_info {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+#command-number {
+    color: var(--burple);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#commands-iframe {
+    border: none;
+}
+
+#commands {
+    color: var(--burple);
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+/* Commands */
+
+
+/* Bot Stats */
+
+.bot-stats {
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    background-color: var(--grey);
+    box-shadow: 0px 0px 20px 10px var(--grey1);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#bot-stats-header {
+    color: var(--burple);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#servers {
+    color: #ff0000;
+    margin-right: 150px;
+    text-decoration: underline;
+}
+
+#server-count {
+    color: #ff0000;
+    margin-right: 150px;
+}
+
+#users {
+    color: #ff0000;
+    margin-top: -52.5px;
+    margin-left: 150px;
+    text-decoration: underline;
+}
+
+#user-count {
+    color: #ff0000;
+    margin-top: -52.5px;
+    margin-left: 150px;
+}
+
+
+/* Bot Stats */
+
+
+/* Bot Info */
+
+.bot-information {
+    text-align: center;
+    width: 500px;
+    height: 420px;
+    background-color: var(--grey);
+    box-shadow: 0px 0px 20px 10px var(--grey1);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#bot-info-header {
+    color: var(--burple);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#bot-info-text {
+    color: #ff0000;
+    width: 465px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#suggestions {
+    color: var(--burple);
+    font-size: 30px;
+}
+
+.footer {
+    float: left;
+    display: block;
+    position: sticky;
+    color: #ff0000;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Bot Info */
+
+.bot-server {
+    text-align: center;
+    width: 500px;
+    height: 225px;
+    background-color: var(--grey);
+    box-shadow: 0px 0px 20px 10px var(--grey1);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#bot-server-header {
+    color: var(--burple);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.server-invite {
+    width: 450px;
+    height: 125px;
+    background-color: var(--grey1);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#server-invite-logo {
+    width: 60px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--grey);
+    margin-top: 25px;
+    margin-left: 15px;
+    float: left;
+}
+
+#bot-server-name {
+    color: var(--burple);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 115px;
+    position: absolute;
+}
+
+#bot-server-desc {
+    color: white;
+    font-size: 10px;
+    margin-top: 75px;
+    margin-left: 115px;
+    position: absolute;
+}
+
+#sna_redirect {
+    color: var(--burple);
+}
+
+#bot-server-invite {
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 65px;
+    position: absolute;
+    background-color: var(--burple);
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+#bot-server-invite:hover {
+    cursor: pointer;
+    opacity: .75;
+    transition: .3s;
+}
+
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #800000;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--grey1);
+    border-radius: 20px;
+    border: 3px solid #800000;
+}
+
+
+/* Track */
+
+@media (min-width: 421px) and (max-width: 550px) {
+    /*bot commands*/
+    .commands {
+        width: 95%;
+        text-align: center;
+        margin-top: -200px;
+        height: 500px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+    #commands-iframe {
+        width: 95%;
+        height: 400px;
+        border: none;
+    }
+    /*bot commands*/
+    /*bot stats*/
+    .bot-stats {
+        width: 95%;
+        text-align: center;
+        height: 200px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    /*bot stats*/
+    /*bot info*/
+    .bot-information {
+        width: 95%;
+        text-align: center;
+        height: 420px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    #bot-info-text {
+        width: 95%;
+        color: #ff0000;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    /*bot info*/
+    /*bot server*/
+    .bot-server {
+        width: 95%;
+        text-align: center;
+        height: 225px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .server-invite {
+        width: 95%;
+        height: 125px;
+        background-color: var(--grey1);
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    #bot-server-invite {
+        font-size: 20px;
+        color: #ff0000;
+        margin-top: 50px;
+        margin-left: 0;
+        position: absolute;
+        background-color: var(--burple);
+        padding: 10px 25px 10px 25px;
+        border-radius: 10px;
+        transition: .3s;
+        text-decoration: none;
+    }
+    #bot-server-name {
+        color: var(--burple);
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 85px;
+        position: absolute;
+    }
+    #bot-server-desc {
+        color: white;
+        font-size: 10px;
+        margin-top: 55px;
+        margin-left: 85px;
+        width: 175px;
+        position: absolute;
+    }
+    #server-invite-logo {
+        width: 40px;
+        height: 45px;
+        padding: 10px;
+        margin-top: 17.5px;
+    }
+    .server-invite {
+        width: 90%;
+        height: 100px;
+        background-color: var(--grey1);
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    #bot-server-invite {
+        font-size: 20px;
+        color: white;
+        margin-top: 35px;
+        margin-left: 45px;
+        position: absolute;
+        background-color: var(--burple);
+        padding: 10px 25px 10px 25px;
+        border-radius: 10px;
+        transition: .3s;
+        text-decoration: none;
+    }
+    /*bot server*/
+}
+
+@media (min-width: 0px) and (max-width: 420px) {
+    .page-header3 {
+        margin-bottom: 40px;
+    }
+    #wave1 {
+        margin-top: -50px;
+        width: 50%;
+    }
+    .page-header #header-bot-inv {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 80%;
+    }
+    .page-header #header-bot-inv2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 80%;
+    }
+    /*bot commands*/
+    .commands {
+        width: 95%;
+        text-align: center;
+        margin-top: -200px;
+        height: 500px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+    #commands-iframe {
+        width: 95%;
+        border: none;
+        height: 375px;
+    }
+    /*bot commands*/
+    /*bot stats*/
+    .bot-stats {
+        width: 95%;
+        text-align: center;
+        height: 200px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    /*bot stats*/
+    /*bot info*/
+    .bot-information {
+        width: 95%;
+        text-align: center;
+        height: 440px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    #bot-info-text {
+        width: 95%;
+        color: #ff0000;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    /*bot info*/
+    /*bot server*/
+    .bot-server {
+        width: 95%;
+        text-align: center;
+        height: 175px;
+        background-color: var(--grey);
+        box-shadow: 0px 0px 20px 10px var(--grey1);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .server-invite {
+        width: 95%;
+        height: 125px;
+        background-color: var(--grey1);
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    #bot-server-invite {
+        font-size: 20px;
+        color: white;
+        margin-top: 50px;
+        margin-left: 0;
+        position: absolute;
+        background-color: var(--burple);
+        padding: 10px 25px 10px 25px;
+        border-radius: 10px;
+        transition: .3s;
+        text-decoration: none;
+    }
+    #bot-server-name {
+        color: white;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 45%;
+        display: none;
+    }
+    #bot-server-desc {
+        color: white;
+        font-size: 10px;
+        margin-top: 75px;
+        margin-left: 115px;
+        position: absolute;
+        display: none;
+    }
+    #server-invite-logo {
+        width: 40px;
+        height: 45px;
+        padding: 10px;
+        margin-top: 17.5px;
+        display: none;
+    }
+    .server-invite {
+        width: 90%;
+        height: 75px;
+        background-color: var(--grey1);
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    #bot-server-invite {
+        font-size: 20px;
+        width: 150px;
+        color: white;
+        margin-top: 20px;
+        margin-left: -100px;
+        position: absolute;
+        background-color: var(--burple);
+        padding: 10px 25px 10px 25px;
+        border-radius: 10px;
+        transition: .3s;
+        text-decoration: none;
+    }
+}
+
+
+/* Just for TopGG info */
+
+@media (max-width: 375px) {
+    .page-header {
+        margin-bottom: -360px;
+    }
+    .page-header2 img {
+        margin: 15px;
+    }
+    .bot-information {
+        height: 440px;
+    }
+    .page-header #header-bot-inv {
+        margin-top: 20px;
+        margin-bottom: -20px;
+        font-size: 60%;
+    }
+    .page-header #header-bot-inv2 {
+        margin-top: 20px;
+        margin-bottom: -20px;
+        font-size: 60%;
+    }
+}
