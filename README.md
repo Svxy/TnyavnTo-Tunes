@@ -290,7 +290,7 @@ ___
 
 <h2 align="center">Author</h2>
 
-<h3 align="center"><a href="https://instagram.com/aidanmcgraw943">TnyavnTo (Aidan McGraw)</a></h3>
+<h3 align="center"><a href="https://tnyavnto.com">TnyavnTo</a></h3>
 
 <h2 align="center">License</h2>
 
