@@ -1,7 +1,7 @@
 <a id="top"></a>
 <a href="https://tnyavnto-tunes.com" target="_blank"><h1 align="center">TnyavnTo Tunes</h1></a>
   
-<a href="https://tnyavnto-tunes.com" target="_blank"><h5 align="center">Invite TnyavnTo Tunes?</h5></a>
+<h5 align="center"><a href="https://tnyavnto-tunes.com" target="_blank">Invite TnyavnTo Tunes?</a></h5>
 
 <h2 align="center">Now released in open source!</h2>
 
